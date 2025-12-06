@@ -1,11 +1,12 @@
+'use client'
+
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
-import { Metadata } from 'next'
 import { motion } from 'framer-motion'
 import { Phone, Clock, AlertTriangle, Shield, Zap, CheckCircle } from 'lucide-react'
 
-export const metadata: Metadata = {
+const metadata = {
   title: '24/7 Emergency Pest Control | Modern Pest Control Tanzania',
   description: '24/7 emergency pest control services across Tanzania. Fast response for urgent pest situations. Call +255 754 307 321 anytime.',
 }
