@@ -263,7 +263,7 @@ export default function Chatbot() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">Kingo Pest Control</h3>
-                  <p className="text-xs text-white/80">We're here to help!</p>
+                  <p className="text-xs text-white/80">We&apos;re here to help!</p>
                 </div>
               </div>
               <div className="flex items-center space-x-2">

@@ -184,7 +184,7 @@ export default function WildlifeRemoval() {
               </h4>
               <p className="text-gray-600">
                 We implement long-term prevention measures including habitat modification,
-                attractant removal, and ongoing monitoring to ensure wildlife doesn't return.
+                attractant removal, and ongoing monitoring to ensure wildlife doesn&apos;t return.
               </p>
             </div>
           </div>

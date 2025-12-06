@@ -13,7 +13,7 @@ const guarantees = [
   {
     icon: Shield,
     title: '100% Satisfaction Guarantee',
-    description: 'If you\'re not completely satisfied with our service, we\'ll return to re-treat at no additional cost. Your satisfaction is our top priority.',
+    description: 'If you&apos;re not completely satisfied with our service, we&apos;ll return to re-treat at no additional cost. Your satisfaction is our top priority.',
   },
   {
     icon: RefreshCw,
@@ -91,7 +91,7 @@ export default function GuaranteePage() {
               </h2>
               <p className="text-xl text-gray-200 max-w-3xl mx-auto">
                 We are so confident in our pest control services that we offer a 100% satisfaction guarantee. 
-                If you're not completely happy with our work, we'll return to make it right at no additional cost.
+                If you&apos;re not completely happy with our work, we&apos;ll return to make it right at no additional cost.
               </p>
             </div>
 
@@ -174,12 +174,12 @@ export default function GuaranteePage() {
                 {
                   step: '2',
                   title: 'Quick Response',
-                  description: 'We\'ll schedule a return visit promptly to assess the situation and determine the best course of action.',
+                  description: 'We&apos;ll schedule a return visit promptly to assess the situation and determine the best course of action.',
                 },
                 {
                   step: '3',
                   title: 'Free Re-Treatment',
-                  description: 'We\'ll provide additional treatment at no cost to you. Our goal is complete satisfaction and pest elimination.',
+                  description: 'We&apos;ll provide additional treatment at no cost to you. Our goal is complete satisfaction and pest elimination.',
                 },
               ].map((item, index) => (
                 <div

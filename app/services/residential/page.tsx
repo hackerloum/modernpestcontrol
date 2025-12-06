@@ -31,7 +31,7 @@ export default function ResidentialPestControl() {
         },
         {
           step: 'Custom Plan',
-          description: 'Development of a personalized treatment strategy tailored to your home\'s specific needs.',
+          description: 'Development of a personalized treatment strategy tailored to your home&apos;s specific needs.',
         },
         {
           step: 'Treatment',
@@ -57,11 +57,11 @@ export default function ResidentialPestControl() {
         },
         {
           question: 'Do I need to leave my home during treatment?',
-          answer: 'In most cases, you can stay in your home during treatment. However, for certain intensive treatments, we may recommend staying away for a few hours. We\'ll always discuss this with you beforehand.',
+          answer: 'In most cases, you can stay in your home during treatment. However, for certain intensive treatments, we may recommend staying away for a few hours. We&apos;ll always discuss this with you beforehand.',
         },
         {
           question: 'What should I do to prepare for a treatment?',
-          answer: 'We\'ll provide you with a preparation checklist before your appointment. Generally, this includes clearing countertops, moving furniture away from walls, and ensuring access to problem areas.',
+          answer: 'We&apos;ll provide you with a preparation checklist before your appointment. Generally, this includes clearing countertops, moving furniture away from walls, and ensuring access to problem areas.',
         },
       ]}
     >

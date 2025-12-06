@@ -84,7 +84,7 @@ export default function EmergencyPage() {
                 When to Call Emergency Service
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Don't wait - call immediately for these urgent situations
+                Don&apos;t wait - call immediately for these urgent situations
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -130,7 +130,7 @@ export default function EmergencyPage() {
                 Fast Response Times
               </h2>
               <p className="text-xl text-gray-600">
-                We're committed to rapid response across Tanzania
+                We&apos;re committed to rapid response across Tanzania
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -205,7 +205,7 @@ export default function EmergencyPage() {
               Need Emergency Service Right Now?
             </h2>
             <p className="text-xl text-gray-200 mb-8">
-              Don't wait - call us immediately for fast, professional emergency pest control
+              Don&apos;t wait - call us immediately for fast, professional emergency pest control
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -18,7 +18,7 @@ const values = [
   {
     icon: Heart,
     title: 'Customer Care',
-    description: 'Your satisfaction is our top priority. We go above and beyond to ensure you\'re happy with our service.',
+    description: 'Your satisfaction is our top priority. We go above and beyond to ensure you&apos;re happy with our service.',
   },
   {
     icon: Award,
@@ -71,7 +71,7 @@ export default function AboutPage() {
                     Modern Pest Control Tanzania was founded in 2009 with a simple mission: to provide safe, effective, and reliable pest control services to homes and businesses across Tanzania.
                   </p>
                   <p>
-                    Starting as a small local business in Dar es Salaam, we have grown to become one of Tanzania's most trusted pest control companies, serving over 20 cities nationwide.
+                    Starting as a small local business in Dar es Salaam, we have grown to become one of Tanzania&apos;s most trusted pest control companies, serving over 20 cities nationwide.
                   </p>
                   <p>
                     Our commitment to excellence, customer satisfaction, and environmental responsibility has earned us the trust of over 5,000 satisfied customers throughout Tanzania.
@@ -172,7 +172,7 @@ export default function AboutPage() {
                   Our Vision
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  To become Tanzania's leading pest control company, recognized for innovation, excellence, and commitment to creating pest-free environments that enhance the quality of life for all Tanzanians.
+                  To become Tanzania&apos;s leading pest control company, recognized for innovation, excellence, and commitment to creating pest-free environments that enhance the quality of life for all Tanzanians.
                 </p>
               </div>
             </div>
