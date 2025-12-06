@@ -1,7 +1,6 @@
 [build]
   command = "npm run build"
-  
-# Next.js 14 with App Router requires the Next.js plugin
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
