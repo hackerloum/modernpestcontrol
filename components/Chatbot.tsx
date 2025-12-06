@@ -82,6 +82,7 @@ export default function Chatbot() {
         },
       ])
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language])
 
   // Detect language from user input - improved detection

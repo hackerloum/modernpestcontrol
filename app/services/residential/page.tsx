@@ -78,7 +78,7 @@ export default function ResidentialPestControl() {
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               We understand that every home is unique, which is why we create customized
-              treatment plans tailored to your specific situation. Whether you're dealing
+              treatment plans tailored to your specific situation. Whether you&apos;re dealing
               with a current infestation or want to prevent future problems, our licensed
               technicians have the expertise to help.
             </p>
