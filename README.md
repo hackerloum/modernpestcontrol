@@ -66,6 +66,65 @@ npm run build
 npm start
 ```
 
+## Deployment to Netlify
+
+This project is configured for deployment on Netlify. The repository is already set up at: https://github.com/hackerloum/modernpestcontrol.git
+
+### Automatic Deployment via Netlify UI
+
+1. **Sign up/Login to Netlify**: Go to [netlify.com](https://www.netlify.com) and sign in
+
+2. **Import your site**:
+   - Click "Add new site" → "Import an existing project"
+   - Connect to GitHub and select the `modernpestcontrol` repository
+   - Netlify will automatically detect the `netlify.toml` configuration
+
+3. **Build Settings** (should auto-detect):
+   - **Build command**: `npm run build`
+   - **Publish directory**: `.next`
+   - **Node version**: 18
+
+4. **Environment Variables** (if needed in the future):
+   - Go to Site settings → Environment variables
+   - Add any required environment variables
+   - Currently, no environment variables are required
+
+5. **Deploy**: Click "Deploy site" and Netlify will build and deploy your site
+
+### Manual Deployment via Netlify CLI
+
+1. Install Netlify CLI:
+```bash
+npm install -g netlify-cli
+```
+
+2. Login to Netlify:
+```bash
+netlify login
+```
+
+3. Initialize and deploy:
+```bash
+netlify init
+netlify deploy --prod
+```
+
+### Post-Deployment
+
+After deployment, your site will be available at a Netlify subdomain (e.g., `your-site.netlify.app`). You can:
+- Add a custom domain in Netlify settings
+- Configure SSL certificates (automatic with Netlify)
+- Set up continuous deployment (automatic with GitHub integration)
+
+### Netlify Configuration
+
+The project includes `netlify.toml` with:
+- Next.js plugin configuration (`@netlify/plugin-nextjs`)
+- Build settings optimized for Next.js 14
+- Security headers
+- Cache optimization for static assets
+- Proper redirects for Next.js routing
+
 ## Project Structure
 
 ```
