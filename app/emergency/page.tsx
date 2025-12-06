@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { Metadata } from 'next'
+import { motion } from 'framer-motion'
 import { Phone, Clock, AlertTriangle, Shield, Zap, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -61,7 +62,7 @@ export default function EmergencyPage() {
               <p className="text-xl md:text-2xl text-gray-200 mb-8">
                 Fast, professional response when you need it most
               </p>
-              <a
+              <motion.a
                 href="tel:+255754307321"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -69,7 +70,7 @@ export default function EmergencyPage() {
               >
                 <Phone size={28} />
                 <span>Call Now: +255 754 307 321</span>
-              </a>
+              </motion.a>
             </div>
           </div>
         </section>
